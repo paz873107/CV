@@ -1,0 +1,55 @@
+:root{
+    --nord0: #2e3440;
+    --nord1: #3B4252;
+    --nord2: #434C5E;
+    --nord3: #4C566A;
+    --nord4: #D8DEE9;
+    --nord5: #E5E9F0;
+    --nord6: #ECEFF4;
+    --nord7: #8FBCBB;
+    --nord8: #88C0D0;
+    --nord9: #81A1C1;
+    --nord10: #5E81AC;
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord014: #A3BE8C;
+    --nord15: #B48EAD;
+    --font: 'Monserrat', sans-serif;
+}
+*{
+    outline: 1px solid var(--nord10);
+}
+body{
+    font-family: var(--font);
+    color: var(--nord3);
+}
+header{
+    display: flex;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    width: 25vw;
+}
+
+aside{
+    width: 55vw;
+}
+
+header,section{
+    width: 80vw;
+    margin: 0 auto;
+}
+img{
+    width: 250px;
+    height: 300px;
+    margin-right: 3vw;;
+}
+
+#header{
+    width: 85vw;
+}
